@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void testClick(View view){
-        Toast.makeText(view.getContext(),"点击事件第四种写法被点击了!!!!!!!!!!!!！",Toast.LENGTH_LONG).show();
+        Toast.makeText(view.getContext(),"点击事件第四种写法被点击了!!!!!!!!!!!!！!",Toast.LENGTH_LONG).show();
     }
 
     public void sendMsg(View view){
